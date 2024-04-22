@@ -9,3 +9,119 @@
     border-radius: 50%;
     margin-top: 20px;
 }
+
+.card-img-top{
+    border: 3px groove #000000;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-cart:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
+  .card-title:hover {
+    color: #ff6600;
+    transition: color 0.3s ease;
+  }
+  
+  input[type="number"]:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+  }
+
+.card-img-top:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card-text:hover {
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+
+  .btn-cart:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  form:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+.nav-item {
+    font-size: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    color: #3737ff; 
+  }
+  
+
+.logotipo {
+    width: 100px; 
+    height: auto;
+  }
+  
+/* Estilos de la imagen */
+.estudiante {
+    width: 200px; /* Ajusta el tamaño de la imagen */
+    height: 200px;
+    transition: transform 0.3s ease; /* Añade una transición al cambiar de tamaño */
+  }
+  
+  /* Animación al pasar el mouse sobre la imagen */
+  .estudiante:hover {
+    transform: scale(1.1); /* Escala ligeramente al pasar el ratón */
+  }
+/* Estilos del contenedor */
+.container {
+    padding: 20px; /* Añadir espacio alrededor del contenido */
+  }
+  
+  /* Estilos del nombre */
+  h2 {
+    color: #007bff; /* Cambiar color del texto a azul */
+    transition: color 0.3s ease; /* Transición suave del color */
+  }
+  
+  /* Estilos del texto adicional */
+  .lead {
+    color: #666; /* Cambiar color del texto a gris */
+  }
+  
+  /* Animación al pasar el mouse sobre el nombre */
+  h2:hover {
+    color: #000000; /* Cambiar color del texto a naranja */
+  }
+    
+ 
+  .nav-link {
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+
+  .nav-link:hover {
+    color: #3737ff; 
+  }
+
+  .nav-link {
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease; 
+  }
+  
+ 
+  .nav-link:hover {
+    color: #3737ff; 
+    transform: translateY(-3px); 
+  }
+
+  
